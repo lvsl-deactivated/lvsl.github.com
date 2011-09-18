@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>lvsl.github.com</title>
+  </head>
+
+  <body>
+    <h1>Posts:</h1>
+    <ul>
+    {% for p in site.posts %}
+      <li>
+        <a href="{{p.url}}">{{p.title}}</a>
+        &mdash;
+        {{p.date | date:"%d %b, %Y"}}
+      </li>
+    {% endfor %}
+    </ul>
+  </body>
+</html>
+
