@@ -1,3 +1,6 @@
+---
+title: lvsl.github.com
+---
 <!DOCTYPE html>
 <html>
   <head>
@@ -5,12 +8,12 @@
   </head>
 
   <body>
-    <ul>
+    <ul class="post-list">
     {% for p in site.posts %}
-      <li>
-        <a href="{{p.url}}">{{p.title}}</a>
-        &mdash;
-        {{p.date | date:"%d %b, %Y"}}
+      <li class="post-item">
+        <a class="post-link" href="{{p.url}}">{{p.title}}</a>
+        <span class="post-title-dash">&mdash;</span>
+        <span class="post-date">{{p.date | date:"%d %b, %Y"}}</span>
       </li>
     {% endfor %}
     </ul>
