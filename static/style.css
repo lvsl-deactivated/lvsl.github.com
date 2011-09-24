@@ -1,9 +1,22 @@
 body {
   font-family: 'Ubuntu', serif;
   font-size: 13px/1.22;
-  background-color: #e6e6fa;
   margin: 0;
   padding: 0;
+
+  background-repeat: no-repeat;
+  background-image: linear-gradient(bottom, rgb(255,255,255) 10%, rgb(230,230,250) 100%);
+  background-image: -o-linear-gradient(bottom, rgb(255,255,255) 10%, rgb(230,230,250) 100%);
+  background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 10%, rgb(230,230,250) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 10%, rgb(230,230,250) 100%);
+  background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 10%, rgb(230,230,250) 100%);
+  background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.1, rgb(255,255,255)),
+	color-stop(1, rgb(230,230,250))
+  );
 }
 
 code {
@@ -29,14 +42,8 @@ code {
 
 .post-item {
   list-style-type: none;
-  background-color: #faf0e6;
   width: 80%;
-  padding: 0.5em;
   margin-bottom: 1em;
-  border-radius: 6px 6px 6px 6px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 .post-content {
@@ -73,6 +80,6 @@ code {
 }
 
 .post-tags {
-  color: #ccc;
+  color: #888;
   font-style: italic;
 }
