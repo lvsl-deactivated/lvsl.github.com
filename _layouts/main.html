@@ -8,12 +8,16 @@ title: lvsl.github.com
   </head>
 
   <body>
+    <div class="about-me">
+      <img src="http://www.gravatar.com/avatar/4f01bd803a897dfe7d2a728444f45af8?s=100"/> 
+    </div>
     <ul class="post-list">
     {% for p in site.posts %}
       <li class="post-item">
         <a class="post-link" href="{{p.url}}">{{p.title}}</a>
         <span class="post-title-dash">&mdash;</span>
         <span class="post-date">{{p.date | date:"%d %b, %Y"}}</span>
+        <span class="post-tags">#{{p.tags | join:", #"}}</span>
       </li>
     {% endfor %}
     </ul>
