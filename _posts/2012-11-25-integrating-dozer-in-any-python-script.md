@@ -9,7 +9,7 @@ tags:
  - threads
 ---
 
-Sometimes it's useful to take a quick look of how your python
+Sometimes it's useful to take a quick look on how your python
 script consumes the memory. The [Dozer](http://pypi.python.org/pypi/Dozer) memory profiler is a very handy
 in this case. Unfortunately it requires that you run a WSGI app, which is not always the case.
 
