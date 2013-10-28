@@ -13,7 +13,7 @@ Doh!
 Sketching with pencil in moleskine is an addictive thing.
 
 <a href="http://yfrog.com/z/me599fvj">
-  <img src="http://desmond.yfrog.com/Himg806/scaled.php?tn=0&server=806&filename=599fv.jpg&xsize=640&ysize=640"/>
+  <img src="http://desmond.yfrog.com/Himg806/scaled.php?tn=0&amp;server=806&amp;filename=599fv.jpg&amp;xsize=640&amp;ysize=640"/>
 </a>
 
 *Yfrog is a bitch, i hate it.*
