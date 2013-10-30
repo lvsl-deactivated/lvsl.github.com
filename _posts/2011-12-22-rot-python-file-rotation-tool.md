@@ -38,7 +38,7 @@ You can find it here:
 [http://github.com/lvsl/rot][repo]
 
 Here is example usage:
-{% highlight shell %}
+{% highlight sh %}
 $rot --stdout-limit 100M \
      --stdout-count 4    \
      --stdout-file spam.stdout.log \

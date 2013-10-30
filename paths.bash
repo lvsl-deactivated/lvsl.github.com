@@ -1,1 +1,1 @@
-export PATH=/usr/local/opr/ruby193/bin:$PATH
+export PATH=/usr/local/opt/ruby193/bin:$PATH
