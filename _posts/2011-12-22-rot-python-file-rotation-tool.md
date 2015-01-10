@@ -45,8 +45,4 @@ $rot --stdout-limit 100M \
  -- spammy_program -a -b -c 100500
 {% endhighlight %}
 
-Here is a rot architecture:
-
-<img src="http://p.twimg.com/AhSWAEWCMAEoDA5.jpg"/>
-
 [repo]: http://github.com/lvsl/rot
