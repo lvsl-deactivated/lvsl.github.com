@@ -22,7 +22,7 @@ I found it very clumsy.
 Yet, the nice thing about *APIary* is that they combined together multiple related technologies and mixed in some nice desing.
 
 ### How To
-Here I will attemp to describe my experience I had, when building my sample API: [](http://docs.xmetricsv1.apiary.io/)
+Here I will attemp to describe my experience I had, when building my sample API: [Xmetrics](http://docs.xmetricsv1.apiary.io/)
 
 First things first.
 I want explicit API versioning, unfortunately *Apiary* does not support this.
