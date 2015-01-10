@@ -8,6 +8,8 @@ tags:
   - APIBlueprints
   - Contract First
 ---
+
+#### Intro
 *Contract First Design* was postulated by [Bertrand Meyer](http://en.wikipedia.org/wiki/Bertrand_Meyer) almost 30 years ago.
 Yet I have not seen any practical implementation of these idea, when designing a new API for web service.
 
@@ -18,7 +20,7 @@ Yet, the nice thing about *APIary* is that they combined together multiple relat
 IMHO, next step for *APIary* should be to add functionality to generate stub code for poluar frameworks like Djanog, Rails, Express.js, Netty, PlayFramework, etc. That would allow to convert my spec into working service.
 **This Is Cool**.
 
-## On Using Markdown
+#### On Using Markdown
 I've used Markdown extensivly with [Pandoc](http://johnmacfarlane.net/pandoc/README.html) to generate LateX paper.
 Now, with APIBlueprints, I'm using it to produce a spec for my API.
 And to write this post.
