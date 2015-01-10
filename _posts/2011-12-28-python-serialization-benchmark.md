@@ -14,6 +14,7 @@ This is my little survey of serialization libraries
 available in python.
 
 Serialization libraries used in benchmark:
+
  * [json](http://docs.python.org/library/json.html)
  * [cjson](http://pypi.python.org/pypi/python-cjson) 
  * [ujson](http://pypi.python.org/pypi/ujson/)
