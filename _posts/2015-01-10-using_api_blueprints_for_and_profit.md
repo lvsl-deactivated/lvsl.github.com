@@ -11,9 +11,9 @@ tags:
 
 ### Intro
 *Contract First Design* was postulated by [Bertrand Meyer](http://en.wikipedia.org/wiki/Bertrand_Meyer) almost 30 years ago.
-Yet I have not seen any practical implementation of these idea, when designing a new API for web service.
+Yet I have not seen any practical implementation of these ideas, when designing a new API for web service.
 
-Until now!
+`Until now!`
 
 [Apiary](http://apiary.io/how-it-works) got quite far in this process.
 They provde special language -- [APIBlueprint](http://apiblueprint.org/) plus nice documentation reader with embedded mock server and API debugger with simple editor (that can even sync with your *GitHub* account).
