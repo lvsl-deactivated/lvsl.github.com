@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using *API Blueprints* for Fun and Profit
+title: Using APIBlueprint for Fun and Profit
 published: true
 tags:
   - JSONSchema
