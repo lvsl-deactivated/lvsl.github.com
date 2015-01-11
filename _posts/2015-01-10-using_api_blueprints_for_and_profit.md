@@ -17,7 +17,7 @@ Yet I have not seen any practical implementation of these ideas, when designing 
 
 [Apiary](http://apiary.io/how-it-works) got quite far to delivering something that can be used in practice.
 They provide special language -- [APIBlueprint](http://apiblueprint.org/) plus nice documentation reader with embedded mock server and API debugger with simple editor (that can even sync with your *GitHub* account).
-After playing a day with *Apiary* and *APIBlueprints* I'd like to note: *API Blueprints* is nothing more than a template that is used by *APiary* to generate its documentation and mocking services.
+After playing a day with *Apiary* and *APIBlueprints* I'd like to note: *API Blueprints* is nothing more than a Markdown template that is used by *APiary* to generate its documentation and mocking services.
 I found it very clumsy.
 Yet, the nice thing about *APIary* is that they combined together multiple related technologies and mixed in some nice design.
 
