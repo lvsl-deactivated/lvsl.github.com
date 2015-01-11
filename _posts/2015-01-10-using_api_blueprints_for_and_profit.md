@@ -87,7 +87,7 @@ Here is how complete section of one API call looks like:
 One feature that surprised me and looks very neat -- is support for [JSON Schema](http://json-schema.org/).
 It really helps to shape your API in the right way.
 The documentation does not clarify how to use or add schema,
-[luckily, there us a support](http://support.apiary.io/knowledgebase/articles/147279-json-schema-validation).
+[luckily, there is a support](http://support.apiary.io/knowledgebase/articles/147279-json-schema-validation).
 
 IMHO, next step for *APIary* should be to add functionality to generate stub code for popular frameworks like Djanog, Rails, Express.js, Netty, PlayFramework, etc. That would allow to convert my spec into working service.
 **This Is Cool**.
