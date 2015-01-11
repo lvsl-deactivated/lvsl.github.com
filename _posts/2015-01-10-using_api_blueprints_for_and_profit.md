@@ -73,6 +73,16 @@ Here os how complete section of one call looks like:
         + Schema
         
             ... JSON-Schema ...
+
+    + Response 500 (application/json)
+
+        + Body
+        
+            ... sample JSON response ...
+    
+        + Schema
+        
+            ... JSON-Schema ...
  
 One feature that surprised me and looks very neat -- is support for [JSON Schema](http://json-schema.org/).
 It really helps to shape your API in the right way.
