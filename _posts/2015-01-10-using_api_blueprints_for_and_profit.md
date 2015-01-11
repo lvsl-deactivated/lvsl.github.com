@@ -32,12 +32,42 @@ When describing API calls I'd like to think about 4 essential things:
 
  - Query string parameters
  - Input data structures
- - Out data structures
- - Error
+ - Output data structures
+ - Errors
 
-*Apiary* only support structured documentation for first query string parameters.
-For Input, Output and Errors I used plain *Markdown* tables right after Action declaration.
+*Apiary* only has support for structured documentation of query string parameters.
+For Input, Output and Errors description I use plain *Markdown* tables right after Action declaration.
 
+Here os how complete section of one call looks like:
+
+    ```
+    ### Fetch Datapoints [POST]
+    
+    #### Input JSON Description
+    | Name | Description | Details |
+    | ---- | ----------- | ------- |
+    
+    #### Output JSON Description
+    | Name | Description | Details |
+    | ---- | ----------- | ------- |
+    
+    #### Errors Description
+    | Name | Description | Details |
+    | ---- | ----------- | ------- |
+    
+    + Request (application/json)
+    
+        + Body
+        
+        + Schema
+    
+    + Response 200 (application.json)
+
+        + Body
+    
+        + Schema
+    ```
+    
 One feature that surprised me and looks very neat -- is support for [JSON Schema](http://json-schema.org/).
 It really helps to shape your API in the right way.
 The documentation is not really clear of how to use or add schema,
