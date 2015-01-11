@@ -40,8 +40,7 @@ For Input, Output and Errors description I use plain *Markdown* tables right aft
 
 Here os how complete section of one call looks like:
 
-    ```
-    ### Fetch Datapoints [POST]
+    ### <API-call-name> [POST]
     
     #### Input JSON Description
     | Name | Description | Details |
@@ -66,8 +65,7 @@ Here os how complete section of one call looks like:
         + Body
     
         + Schema
-    ```
-    
+ 
 One feature that surprised me and looks very neat -- is support for [JSON Schema](http://json-schema.org/).
 It really helps to shape your API in the right way.
 The documentation is not really clear of how to use or add schema,
